@@ -1,3 +1,3 @@
-# heroku-buildpack-korean-text
+# heroku-buildpack-converter-fonts
 
-> Heroku에서 한국어 텍스트 사용하기
+Heroku buildpack for installing various fonts on an heroku instance.
