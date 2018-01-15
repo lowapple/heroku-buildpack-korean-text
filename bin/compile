@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+# font
+mkdir .fonts
+cp $BUILD_DIR/vendor/fonts/* .fonts
+
+# refresh font-cache
+# target: .fonts
+fc-cache -v .fonts
